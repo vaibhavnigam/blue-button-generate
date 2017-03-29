@@ -11,8 +11,8 @@ module.exports = function (grunt) {
     grunt.loadNpmTasks('grunt-istanbul-coverage');
     grunt.loadNpmTasks('grunt-mocha-phantomjs');
     grunt.loadNpmTasks('grunt-coveralls');
-    grunt.loadNpmTasks('grunt-jsbeautifier');
     grunt.loadNpmTasks('grunt-browserify');
+    grunt.loadNpmTasks('grunt-jsbeautifier');
     grunt.loadNpmTasks('grunt-blue-button');
 
     // Project configuration.
